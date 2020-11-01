@@ -26,7 +26,7 @@ void loop()
     lcd.setCursor(0,0);
     lcd.print("BE CAREFUL!");
     digitalWrite(ledPinred, HIGH);
-    digitalWrite(ledPinred, LOW);
+    digitalWrite(ledPingre, LOW);
     lcd.setCursor(0,1);
     lcd.print("MOTION DETECTED");
     delay(50);
@@ -39,7 +39,7 @@ void loop()
       lcd.setCursor(0,0);
       lcd.print("NO MOTION");
       digitalWrite(ledPingre, HIGH);
-      digitalWrite(ledPingre, LOW);
+      digitalWrite(ledPinred, LOW);
       lcd.setCursor(0,1);
       lcd.print("YOU ARE SAFE :)");
       delay(50);
